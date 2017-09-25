@@ -1,6 +1,6 @@
 *.pyc
 *.pyo
 .installed.cfg
-__pycache__
+__pycache__/
 000*.py
 
