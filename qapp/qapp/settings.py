@@ -121,6 +121,7 @@ STATIC_URL = '/static/'
 
 try:
 	from qapp.settings_local import *
+	print(INSTALLED_APPS)
 except ImportError as ex:
 	print(ex)
 	pass
